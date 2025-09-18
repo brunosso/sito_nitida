@@ -1,0 +1,522 @@
+{
+  "lang": "it",
+  "header": {
+    "logo": "Nitida Project",
+    "nav": {
+      "services": "Servizi",
+      "about": "Chi Siamo",
+      "news": "News",
+      "partners": "Partner",
+      "contact": "Contatti"
+    },
+    "language": "IT"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {en} it {it} other {Unknown}}"
+  },
+  "hero": {
+    "title": "Soluzioni per Termoregolazione e Rilevazione Incendi",
+    "subtitle": "grazie all'uso di noti brand internazionali",
+    "cta": "Scopri le Nostre Soluzioni",
+    "ctaLink": "/services",
+    "learnMore": "Contattaci",
+    "learnMoreLink": "/contact"
+  },
+  "about": {
+    "hero": {
+      "title": "Chi Siamo",
+      "subtitle": "Pionieri del futuro della tecnologia di sicurezza con innovazione, competenza e impegno incrollabile per proteggere ciò che conta di più."
+    },
+    "mission": {
+      "title": "La Nostra Missione",
+      "description": "Fornire soluzioni di sicurezza all'avanguardia che proteggono aziende, comunità e individui attraverso tecnologia innovativa e servizio eccezionale. Crediamo che la sicurezza debba essere intelligente, fluida e accessibile a tutti.",
+      "point1": "Fornire tecnologia di sicurezza all'avanguardia",
+      "point2": "Garantire protezione 24/7 e tranquillità",
+      "point3": "Guidare l'innovazione in IoT e sicurezza elettrica"
+    },
+    "vision": {
+      "title": "La Nostra Visione",
+      "description": "Essere il leader globale nelle soluzioni di sicurezza intelligenti, creando un mondo più sicuro attraverso la tecnologia che anticipa, si adatta e protegge."
+    },
+    "values": {
+      "title": "I Nostri Valori",
+      "subtitle": "I principi che guidano tutto ciò che facciamo",
+      "innovation": {
+        "title": "Innovazione",
+        "description": "Spingiamo costantemente i limiti di ciò che è possibile nella tecnologia di sicurezza, sempre alla ricerca di nuovi modi per proteggere e servire."
+      },
+      "reliability": {
+        "title": "Affidabilità",
+        "description": "I nostri sistemi sono costruiti per funzionare quando ne hai più bisogno, fornendo protezione incrollabile e tranquillità."
+      },
+      "excellence": {
+        "title": "Eccellenza",
+        "description": "Ci impegniamo per l'eccellenza in ogni aspetto del nostro lavoro, dallo sviluppo dei prodotti al servizio clienti."
+      }
+    },
+    "history": {
+      "title": "La Nostra Storia",
+      "subtitle": "Dagli umili inizi alla leadership del settore",
+      "step1": {
+        "title": "2009 - Fondazione",
+        "description": "Fondata con la visione di rivoluzionare la tecnologia di sicurezza attraverso l'innovazione e soluzioni centrate sul cliente."
+      },
+      "step2": {
+        "title": "2015 - Rivoluzione IoT",
+        "description": "Pionieri dell'integrazione della sicurezza IoT, diventando una delle prime aziende a offrire protezione completa per dispositivi connessi."
+      },
+      "step3": {
+        "title": "2020 - Integrazione IA",
+        "description": "Lanciati sistemi di sorveglianza alimentati da IA, stabilendo nuovi standard del settore per il monitoraggio intelligente della sicurezza."
+      },
+      "step4": {
+        "title": "2024 - Espansione Globale",
+        "description": "Espansione delle operazioni a livello globale, servendo clienti in tutta Europa e oltre con soluzioni di sicurezza all'avanguardia."
+      }
+    },
+    "achievements": {
+      "title": "Risultati Chiave",
+      "achievement1": "500+ installazioni completate con successo",
+      "achievement2": "15+ anni di esperienza nel settore",
+      "achievement3": "99.9% di soddisfazione dei clienti",
+      "achievement4": "Premi per l'innovazione leader del settore"
+    },
+    "certifications": {
+      "title": "Certificazioni e Standard",
+      "subtitle": "Impegnati nei più alti standard di qualità e conformità",
+      "description": "Le nostre certificazioni dimostrano il nostro impegno per l'eccellenza e la conformità agli standard internazionali nella tecnologia di sicurezza e sicurezza elettrica.",
+      "items": [
+        {
+          "name": "ISO 9001:2015",
+          "description": "Certificazione del Sistema di Gestione per la Qualità che garantisce qualità costante in tutti i nostri processi e servizi.",
+          "issuer": "Organizzazione Internazionale per la Standardizzazione"
+        },
+        {
+          "name": "ISO 14001:2015",
+          "description": "Certificazione del Sistema di Gestione Ambientale per operazioni sostenibili e rispettose dell'ambiente.",
+          "issuer": "Organizzazione Internazionale per la Standardizzazione"
+        },
+        {
+          "name": "Marcatura CE",
+          "description": "Marcatura di Conformità Europea che garantisce che i nostri prodotti soddisfino i requisiti di sicurezza, salute e ambiente dell'UE.",
+          "issuer": "Unione Europea"
+        },
+        {
+          "name": "IEC 62443",
+          "description": "Standard di sicurezza per reti di comunicazione industriale per le nostre soluzioni IoT e cybersecurity.",
+          "issuer": "Commissione Elettrotecnica Internazionale"
+        },
+        {
+          "name": "UL Listed",
+          "description": "Certificazione Underwriters Laboratories per sistemi di sicurezza elettrica e protezione antincendio.",
+          "issuer": "Underwriters Laboratories"
+        },
+        {
+          "name": "EN 54 Rilevamento Incendi",
+          "description": "Standard europeo per sistemi di rilevamento e allarme incendi che garantisce soluzioni affidabili per la sicurezza antincendio.",
+          "issuer": "Comitato Europeo di Standardizzazione"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pronto a Lavorare con Noi?",
+      "description": "Scopri come le nostre soluzioni di sicurezza innovative possono proteggere la tua azienda e darti tranquillità.",
+      "servicesButton": "Visualizza i Nostri Servizi",
+      "contactButton": "Contattaci"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contattaci",
+      "subtitle": "Mettiti in contatto con il nostro team di esperti di sicurezza. Siamo qui per aiutarti a proteggere ciò che conta di più."
+    },
+    "location": {
+      "title": "Visita il Nostro Ufficio",
+      "addressLabel": "Indirizzo",
+      "hoursLabel": "Orari di Lavoro",
+      "hours": "Lunedì - Venerdì: 9:00 - 18:00",
+      "emergency": "Supporto di Emergenza: 24/7",
+      "mapPlaceholder": "La mappa interattiva sarà visualizzata qui"
+    },
+    "managers": {
+      "title": "Chi siamo",
+      "subtitle": "Pronto a proteggere la tua struttura? Siamo qui per aiutarti a trovare la soluzione di sicurezza perfetta per le tue esigenze.",
+      "technicalManagerName": "Alberto Scrofani",
+      "technicalManagerTitle": "Responsabile Tecnico",
+      "technicalManagerPhone": "+39 02 1234 5679",
+      "technicalManagerEmail": "technical@nitidaproject.it",
+      "salesManagerName": "Gabriele Aprile",
+      "salesManagerTitle": "Responsabile Commerciale",
+      "salesManagerPhone": "+39 02 1234 5680",
+      "salesManagerEmail": "sales@nitidaproject.it"
+    },
+    "form": {
+      "title": "Inviaci un Messaggio",
+      "firstName": "Nome",
+      "firstNamePlaceholder": "Il tuo nome",
+      "lastName": "Cognome",
+      "lastNamePlaceholder": "Il tuo cognome",
+      "email": "Email",
+      "emailPlaceholder": "tua.email@esempio.com",
+      "phone": "Telefono",
+      "phonePlaceholder": "+39 02 1234 5678",
+      "company": "Azienda",
+      "companyPlaceholder": "Nome della tua azienda",
+      "service": "Servizio di Interesse",
+      "selectService": "Seleziona un servizio",
+      "surveillance": "Sistemi di Sorveglianza Intelligente",
+      "iot": "Integrazione Sicurezza IoT",
+      "access": "Sistemi di Controllo Accessi",
+      "electrical": "Soluzioni Sicurezza Elettrica",
+      "other": "Altro",
+      "message": "Messaggio",
+      "messagePlaceholder": "Raccontaci delle tue esigenze di sicurezza...",
+      "submitButton": "Invia Messaggio"
+    },
+    "cta": {
+      "title": "Pronto a Iniziare?",
+      "description": "Contattaci oggi per discutere delle tue esigenze di sicurezza e ottenere una consulenza gratuita.",
+      "servicesButton": "Visualizza i Nostri Servizi",
+      "callButton": "Chiama Ora"
+    }
+  },
+  "stats": {
+    "title": "Il Nostro Impatto",
+    "subtitle": "Fiducia di organizzazioni leader in tutto il mondo",
+    "items": [
+      {
+        "number": "500+",
+        "label": "Installazioni Completate",
+        "description": "Implementate con successo in vari settori"
+      },
+      {
+        "number": "99.9%",
+        "label": "Garanzia di Funzionamento",
+        "description": "Sistemi affidabili che non dormono mai"
+      },
+      {
+        "number": "24/7",
+        "label": "Supporto Disponibile",
+        "description": "Assistenza tecnica disponibile 24 ore su 24"
+      },
+      {
+        "number": "15+",
+        "label": "Anni di Esperienza",
+        "description": "Competenza del settore e innovazione"
+      }
+    ]
+  },
+  "news": {
+    "title": "Ultime Notizie",
+    "subtitle": "Rimani aggiornato con le nostre ultime innovazioni e approfondimenti del settore",
+    "readMore": "Leggi di Più",
+    "articles": [
+      {
+        "id": 1,
+        "title": "Lancio del Nuovo Sistema di Sorveglianza con IA",
+        "excerpt": "Siamo entusiasti di annunciare il lancio del nostro ultimo sistema di sorveglianza alimentato da IA che rivoluziona il monitoraggio della sicurezza con riconoscimento facciale avanzato e analisi predittive.",
+        "date": "2024-01-15",
+        "category": "Lancio Prodotto",
+        "image": "/news-ai-surveillance.jpg",
+        "content": "<p>Siamo entusiasti di annunciare il lancio del nostro ultimo sistema di sorveglianza alimentato da IA che rivoluziona il monitoraggio della sicurezza con riconoscimento facciale avanzato e analisi predittive.</p><p>Il nuovo sistema è ora disponibile per la distribuzione in tutte le nostre strutture clienti.</p>"
+      },
+      {
+        "id": 2,
+        "title": "Aggiornamento Standard Sicurezza IoT",
+        "excerpt": "Il nostro team ha lavorato a stretto contatto con i leader del settore per stabilire nuovi standard di sicurezza IoT che miglioreranno la protezione per i dispositivi connessi in tutti i settori.",
+        "date": "2024-01-10",
+        "category": "Notizie Settore",
+        "image": "/news-iot-standards.jpg",
+        "content": "<p>Il nostro team ha lavorato a stretto contatto con i leader del settore per stabilire nuovi standard di sicurezza IoT che miglioreranno la protezione per i dispositivi connessi in tutti i settori.</p><p>I nuovi standard includono:</p><ul><li><strong>Protocolli di crittografia migliorati</strong> per la comunicazione tra dispositivi</li><li>Meccanismi di <em>autenticazione robusti</em> per la gestione dei dispositivi IoT</li><li>Capacità di rilevamento e risposta in tempo reale per le minacce</li></ul><p>Questi standard saranno implementati in tutte le nostre soluzioni di sicurezza IoT a partire dal prossimo trimestre.</p>"
+      },
+      {
+        "id": 3,
+        "title": "Partnership con Università Tecnica Leader",
+        "excerpt": "Siamo orgogliosi di annunciare la nostra nuova partnership di ricerca con il Politecnico di Ragusa per sviluppare tecnologie di sicurezza di prossima generazione per le smart city.",
+        "date": "2024-01-05",
+        "category": "Partnership",
+        "image": "/news-partnership.jpg",
+        "content": "<p>Siamo orgogliosi di annunciare la nostra nuova partnership di ricerca con il Politecnico di Ragusa per sviluppare tecnologie di sicurezza di prossima generazione per le smart city.</p><p>Questa collaborazione si concentrerà su:</p><ul><li><strong>Soluzioni di sicurezza per le smart city</strong> per ambienti urbani</li><li>Algoritmi di <em>machine learning avanzati</em> per la previsione delle minacce</li><li>Protocolli di sicurezza IoT di prossima generazione</li></ul><p>La partnership accelerarà i nostri sforzi di ricerca e sviluppo nella creazione di tecnologie innovative per le città del domani.</p>"
+      }
+    ]
+  },
+  "footer": {
+    "company": {
+      "title": "Nitida Project",
+      "description": "Il tuo partner di fiducia per soluzioni avanzate di sicurezza e IoT per strutture moderne."
+    },
+    "contact": {
+      "title": "Contattaci",
+      "address": "Via Roma 123, Ragusa, Italia",
+      "phone": "+39 02 1234 5678",
+      "email": "info@nitidaproject.it"
+    },
+    "copyright": "© 2025 Nitida Project srl. Tutti i diritti riservati."
+  },
+  "servicePages": {
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Servizi"
+    },
+    "common": {
+      "learnMore": "Scopri di più",
+      "keyBenefits": "Vantaggi Principali",
+      "getStartedToday": "Inizia Oggi",
+      "viewDetails": "Visualizza Dettagli"
+    },
+    "service": {
+        "title": "I Nostri Servizi",
+        "subtitle": "Soluzioni di sicurezza complete per ogni esigenza",
+        "parentSlug": "servizi",
+        "items": [
+          {
+            "title": "Automazione e Termoregolazione",
+            "description": "Sistemi CCTV alimentati da IA con riconoscimento facciale e rilevamento movimento per monitoraggio 24/7",
+            "image": "/img/services/service-01.png",
+            "serviceId": "automation-and-thermoregulation",
+            "slug": "automazione-e-termoregolazione",
+            "badge": "Tecnologia IA Avanzata",
+            "features": [
+              {
+                "title": "Riconoscimento Facciale con IA",
+                "description": "Tecnologia avanzata di riconoscimento facciale con precisione del 99.9% per identificare il personale autorizzato e rilevare individui non autorizzati."
+              },
+              {
+                "title": "Rilevamento Movimento e Analisi",
+                "description": "Rilevamento movimento intelligente con analisi comportamentale per distinguere tra attività normale e potenziali minacce alla sicurezza."
+              },
+              {
+                "title": "Monitoraggio Remoto 24/7",
+                "description": "Capacità di monitoraggio 24 ore su 24 con accesso remoto tramite applicazioni mobili e web sicure."
+              },
+              {
+                "title": "Archiviazione Cloud e Backup",
+                "description": "Archiviazione cloud sicura con backup automatico e ridondanza per garantire che nessun filmato venga mai perso."
+              }
+            ],
+            "benefits": [
+              "Riduzione degli incidenti di sicurezza dell'85%",
+              "Monitoraggio automatizzato 24/7",
+              "Sistema di allerta in tempo reale",
+              "Conformità alle normative di sicurezza",
+              "Soluzione scalabile per strutture di qualsiasi dimensione",
+              "Integrazione con l'infrastruttura di sicurezza esistente"
+            ],
+            "cta": {
+              "title": "Pronto a Proteggere la Tua Struttura?",
+              "description": "Contattaci oggi per scoprire come i nostri sistemi di sorveglianza intelligenti possono proteggere la tua azienda."
+            }
+          },
+          {
+            "title": "Monitoraggio Energetico",
+            "description": "Integrazione perfetta di dispositivi IoT con protocolli di sicurezza avanzati e monitoraggio in tempo reale",
+            "image": "/img/services/service-02.png",
+            "serviceId": "energy-monitoring",
+            "slug": "monitoraggio-energetico",
+            "badge": "Sicurezza IoT di Prossima Generazione",
+            "features": [
+              {
+                "title": "Autenticazione e Crittografia Dispositivi",
+                "description": "Protocolli di crittografia avanzati e autenticazione multi-fattore per tutti i dispositivi IoT per prevenire accessi non autorizzati."
+              },
+              {
+                "title": "Rilevamento Minacce in Tempo Reale",
+                "description": "Sistema di rilevamento minacce alimentato da IA che monitora il traffico di rete IoT e identifica potenziali violazioni di sicurezza istantaneamente."
+              },
+              {
+                "title": "Segmentazione della Rete",
+                "description": "Segmentazione intelligente della rete che isola i dispositivi IoT dai sistemi critici mantenendo la piena funzionalità."
+              },
+              {
+                "title": "Sistema di Risposta Automatica",
+                "description": "Risposte di sicurezza automatizzate che isolano immediatamente i dispositivi compromessi e avvisano il personale di sicurezza."
+              }
+            ],
+            "benefits": [
+              "Protezione contro attacchi basati su IoT",
+              "Conformità agli standard di sicurezza IoT",
+              "Superficie di attacco ridotta",
+              "Gestione centralizzata della sicurezza",
+              "Scalabile per reti IoT in crescita",
+              "Integrazione con strumenti di sicurezza esistenti"
+            ],
+            "cta": {
+              "title": "Proteggi la Tua Infrastruttura IoT?",
+              "description": "Contattaci oggi per scoprire come la nostra integrazione di sicurezza IoT può proteggere i tuoi dispositivi connessi."
+            }
+          },
+          {
+            "title": "Rilevazione Fumi",
+            "description": "Controllo accessi biometrico e RFID per massima sicurezza e convenienza",
+            "image": "/img/services/service-03.png",
+            "serviceId": "smoke-detection",
+            "slug": "rilevazione-fumi",
+            "badge": "Tecnologia di Controllo Accessi Avanzata",
+            "features": [
+              {
+                "title": "Autenticazione Biometrica",
+                "description": "Tecnologia avanzata di riconoscimento delle impronte digitali, del volto e scansione dell'iride per un controllo accessi sicuro e conveniente."
+              },
+              {
+                "title": "Sistemi RFID e Smart Card",
+                "description": "Carte RFID contactless e smart card con dati crittografati per accesso rapido e sicuro alle strutture."
+              },
+              {
+                "title": "Controllo Accessi Multi-Zona",
+                "description": "Controllo accessi granulare con diversi livelli di autorizzazione per varie aree all'interno della tua struttura."
+              },
+              {
+                "title": "Monitoraggio e Allerte in Tempo Reale",
+                "description": "Monitoraggio in tempo reale degli eventi di accesso con allerte istantanee per tentativi di accesso non autorizzati e violazioni di sicurezza."
+              }
+            ],
+            "benefits": [
+              "Sicurezza migliorata con verifica biometrica",
+              "Eliminazione di carte di accesso perse o rubate",
+              "Log di accesso dettagliati e tracce di audit",
+              "Integrazione con sistemi HR e gestione edifici",
+              "Soluzione scalabile per più sedi",
+              "Conformità alle normative di sicurezza"
+            ],
+            "cta": {
+              "title": "Controlla l'Accesso alla Tua Struttura?",
+              "description": "Contattaci oggi per scoprire come i nostri sistemi di controllo accessi possono proteggere i tuoi locali."
+            }
+          },
+          {
+            "title": "Consulenza, Manutenzione e Assistenza",
+            "description": "Sistemi completi di sicurezza elettrica inclusi rilevamento incendi e protocolli di emergenza",
+            "image": "/img/services/service-04.png",
+            "serviceId": "consulting-maintenance-and-support",
+            "slug": "consulenza-manutenzione-e-assistenza",
+            "badge": "Sicurezza Elettrica Completa",
+            "features": [
+              {
+                "title": "Sistemi di Rilevamento Incendi e Allarme",
+                "description": "Sistemi avanzati di rilevamento incendi con sensori di fumo, calore e gas per allerta precoce e risposta rapida."
+              },
+              {
+                "title": "Rilevamento Guasti Elettrici",
+                "description": "Monitoraggio in tempo reale dei sistemi elettrici per rilevare guasti, sovraccarichi e potenziali rischi di incendio prima che si verifichino."
+              },
+              {
+                "title": "Sistemi di Alimentazione di Emergenza",
+                "description": "Sistemi di alimentazione di backup e illuminazione di emergenza per garantire sicurezza e continuità operativa durante i blackout."
+              },
+              {
+                "title": "Protocolli di Sicurezza Automatici",
+                "description": "Risposte di sicurezza automatizzate inclusi isolamento dei circuiti, procedure di spegnimento di emergenza e attivazione dei sistemi di evacuazione."
+              }
+            ],
+            "benefits": [
+              "Prevenzione di incendi elettrici e incidenti",
+              "Conformità alle normative di sicurezza elettrica",
+              "Riduzione dei costi assicurativi",
+              "Monitoraggio e protezione 24/7",
+              "Integrazione con sistemi di gestione edifici",
+              "Tracce di audit di sicurezza complete"
+            ],
+            "cta": {
+              "title": "Proteggi la Tua Infrastruttura Elettrica?",
+              "description": "Contattaci oggi per scoprire come le nostre soluzioni di sicurezza elettrica possono proteggere la tua struttura e il personale."
+            }
+          }
+        ]
+    }
+  },
+  "partners": {
+    "hero": {
+      "title": "I Nostri Partner Fidati",
+      "subtitle": "Lavoriamo con marchi leader del settore per fornire soluzioni di sicurezza e automazione della massima qualità"
+    },
+    "brands": {
+      "title": "Partner di Marchi Premium",
+      "subtitle": "Collaboriamo con produttori di fama mondiale per garantire ai nostri clienti le soluzioni tecnologiche più affidabili e avanzate",
+      "items": [
+        {
+          "name": "Siemens",
+          "logo": "S",
+          "description": "Leader globale nella tecnologia di automazione e digitalizzazione, fornisce sistemi di automazione edilizia e sicurezza all'avanguardia.",
+          "category": "Automazione Edifici"
+        },
+        {
+          "name": "Schneider Electric",
+          "logo": "SE",
+          "description": "Pioniere nelle soluzioni di gestione energetica e automazione, offre sistemi completi di sicurezza elettrica e monitoraggio.",
+          "category": "Gestione Energetica"
+        },
+        {
+          "name": "Honeywell",
+          "logo": "H",
+          "description": "Leader del settore nei sistemi di rilevamento incendi e gestione edifici, garantisce massima sicurezza ed efficienza.",
+          "category": "Sicurezza Antincendio"
+        },
+        {
+          "name": "Bosch",
+          "logo": "B",
+          "description": "Soluzioni innovative di sicurezza e automazione con integrazione IoT avanzata e tecnologie per edifici intelligenti.",
+          "category": "Sistemi di Sicurezza"
+        },
+        {
+          "name": "ABB",
+          "logo": "A",
+          "description": "Fornitore leader di apparecchiature elettriche e soluzioni di automazione per applicazioni industriali e commerciali.",
+          "category": "Sistemi Elettrici"
+        },
+        {
+          "name": "Legrand",
+          "logo": "L",
+          "description": "Esperto in infrastrutture elettriche e digitali per edifici, fornisce soluzioni intelligenti e sostenibili.",
+          "category": "Infrastrutture Intelligenti"
+        }
+      ]
+    },
+    "whyBrands": {
+      "title": "Perché Scegliamo Questi Marchi",
+      "subtitle": "Le nostre partnership sono costruite su valori condivisi di innovazione, affidabilità ed eccellenza",
+      "reasons": [
+        {
+          "icon": "🏆",
+          "title": "Leadership del Settore",
+          "description": "Ogni partner è un leader riconosciuto nel proprio campo, garantendo tecnologia e innovazione all'avanguardia."
+        },
+        {
+          "icon": "🔒",
+          "title": "Affidabilità e Qualità",
+          "description": "Tutti i nostri partner mantengono i più alti standard di qualità e affidabilità, supportati da test estensivi e certificazioni."
+        },
+        {
+          "icon": "🌍",
+          "title": "Supporto Globale",
+          "description": "Le reti di supporto mondiali garantiscono che i nostri clienti ricevano assistenza e manutenzione tempestive ovunque si trovino."
+        },
+        {
+          "icon": "🔧",
+          "title": "Eccellenza Tecnica",
+          "description": "Capacità tecniche avanzate e innovazione continua mantengono le nostre soluzioni all'avanguardia della tecnologia."
+        },
+        {
+          "icon": "📈",
+          "title": "Soluzioni Future-Proof",
+          "description": "I nostri partner investono pesantemente in R&S, garantendo che le nostre soluzioni rimangano rilevanti ed efficaci per anni a venire."
+        },
+        {
+          "icon": "🤝",
+          "title": "Approccio di Partnership",
+          "description": "Lavoriamo a stretto contatto con i nostri partner per fornire soluzioni personalizzate che soddisfano le esigenze specifiche dei nostri clienti."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Sperimenta la Tecnologia Premium",
+      "description": "Scopri come le nostre partnership con i leader del settore possono fornirti le soluzioni di sicurezza più avanzate e affidabili.",
+      "servicesButton": "Visualizza i Nostri Servizi",
+      "contactButton": "Mettiti in Contatto"
+    }
+  },
+  "notfound": {
+    "title": "404",
+    "description": "Pagina non trovata"
+  }
+}
