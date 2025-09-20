@@ -436,37 +436,37 @@
       "items": [
         {
           "name": "Siemens",
-          "logo": "S",
+          "logo": "/img/partners/siemens.png",
           "description": "Leader globale nella tecnologia di automazione e digitalizzazione, fornisce sistemi di automazione edilizia e sicurezza all'avanguardia.",
           "category": "Automazione Edifici"
         },
         {
           "name": "Schneider Electric",
-          "logo": "SE",
+          "logo": "/img/partners/schneider-electric.png",
           "description": "Pioniere nelle soluzioni di gestione energetica e automazione, offre sistemi completi di sicurezza elettrica e monitoraggio.",
           "category": "Gestione Energetica"
         },
         {
           "name": "Honeywell",
-          "logo": "H",
+          "logo": "/img/partners/honeywell.png",
           "description": "Leader del settore nei sistemi di rilevamento incendi e gestione edifici, garantisce massima sicurezza ed efficienza.",
           "category": "Sicurezza Antincendio"
         },
         {
           "name": "Bosch",
-          "logo": "B",
+          "logo": "/img/partners/bosch.png",
           "description": "Soluzioni innovative di sicurezza e automazione con integrazione IoT avanzata e tecnologie per edifici intelligenti.",
           "category": "Sistemi di Sicurezza"
         },
         {
           "name": "ABB",
-          "logo": "A",
+          "logo": "/img/partners/abb.png",
           "description": "Fornitore leader di apparecchiature elettriche e soluzioni di automazione per applicazioni industriali e commerciali.",
           "category": "Sistemi Elettrici"
         },
         {
           "name": "Legrand",
-          "logo": "L",
+          "logo": "/img/partners/legrand.png",
           "description": "Esperto in infrastrutture elettriche e digitali per edifici, fornisce soluzioni intelligenti e sostenibili.",
           "category": "Infrastrutture Intelligenti"
         }

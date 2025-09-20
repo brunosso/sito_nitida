@@ -439,37 +439,37 @@ declare const messages: {
       "items": [
         {
           "name": "Siemens",
-          "logo": "S",
+          "logo": "/img/partners/siemens.png",
           "description": "Global leader in automation and digitalization technology, providing cutting-edge building automation and security systems.",
           "category": "Building Automation"
         },
         {
           "name": "Schneider Electric",
-          "logo": "SE",
+          "logo": "/img/partners/schneider-electric.png",
           "description": "Pioneer in energy management and automation solutions, offering comprehensive electrical safety and monitoring systems.",
           "category": "Energy Management"
         },
         {
           "name": "Honeywell",
-          "logo": "H",
+          "logo": "/img/partners/honeywell.png",
           "description": "Industry leader in fire detection and building management systems, ensuring maximum safety and efficiency.",
           "category": "Fire Safety"
         },
         {
           "name": "Bosch",
-          "logo": "B",
+          "logo": "/img/partners/bosch.png",
           "description": "Innovative security and automation solutions with advanced IoT integration and smart building technologies.",
           "category": "Security Systems"
         },
         {
           "name": "ABB",
-          "logo": "A",
+          "logo": "/img/partners/abb.png",
           "description": "Leading provider of electrical equipment and automation solutions for industrial and commercial applications.",
           "category": "Electrical Systems"
         },
         {
           "name": "Legrand",
-          "logo": "L",
+          "logo": "/img/partners/legrand.png",
           "description": "Expert in electrical and digital building infrastructures, delivering smart and sustainable solutions.",
           "category": "Smart Infrastructure"
         }

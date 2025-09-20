@@ -39,6 +39,8 @@ export default function ContactPage() {
             <div className=" rounded-lg p-8 shadow-sm text-center bg-background-50">
               <div className="w-24 h-24 mx-auto mb-6 bg-background-50 rounded-full flex items-center justify-center overflow-hidden">
                 <Image 
+                  width={96}
+                  height={96}
                   src="/img/managers/technical-manager.svg" 
                   alt={t('contact.managers.technicalManagerName')}
                   className="w-full h-full object-cover"
@@ -69,6 +71,8 @@ export default function ContactPage() {
             <div className="rounded-lg p-8 shadow-sm text-center bg-background-50">
               <div className="w-24 h-24 mx-auto mb-6 bg-background-50 rounded-full flex items-center justify-center overflow-hidden">
                 <Image 
+                  width={96}
+                  height={96}
                   src="/img/managers/sales-manager.svg" 
                   alt={t('contact.managers.salesManagerName')}
                   className="w-full h-full object-cover"
