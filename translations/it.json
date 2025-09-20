@@ -133,7 +133,7 @@
     },
     "location": {
       "title": "Visita il Nostro Ufficio",
-      "addressLabel": "Zona Industriale 3ª Fase, Viale 15, n. 6 - 97100 Ragusa",
+      "addressLabel": "Indirizzo",
       "hoursLabel": "Orari di Lavoro",
       "hours": "Lunedì - Venerdì: 9:00 - 18:00",
       "emergency": "Supporto di Emergenza: 24/7",
@@ -144,12 +144,12 @@
       "subtitle": "Pronto a proteggere la tua struttura? Siamo qui per aiutarti a trovare la soluzione di sicurezza perfetta per le tue esigenze.",
       "technicalManagerName": "Alberto Scrofani",
       "technicalManagerTitle": "Responsabile Tecnico",
-      "technicalManagerPhone": "+39 329 448 9572",
-      "technicalManagerEmail": "a.scrofani@nitidaproject.it",
+      "technicalManagerPhone": "+39 02 1234 5679",
+      "technicalManagerEmail": "technical@nitidaproject.it",
       "salesManagerName": "Gabriele Aprile",
       "salesManagerTitle": "Responsabile Commerciale",
-      "salesManagerPhone": "+39 320 412 7266",
-      "salesManagerEmail": "g.aprile@nitidaproject.it"
+      "salesManagerPhone": "+39 02 1234 5680",
+      "salesManagerEmail": "sales@nitidaproject.it"
     },
     "form": {
       "title": "Inviaci un Messaggio",

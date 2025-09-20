@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { Service } from '@/types';
 
 export default function Footer() {
   const t = useTranslations();
@@ -30,7 +31,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">{t('servicePages.service.title')}</h3>
             <ul className="space-y-2 text-foreground">
-              {t.raw('servicePages.service.items').map((service: any, index: number) => (
+              {t.raw('servicePages.service.items').map((service: Service, index: number) => (
                 <li key={index}>
                   <Link 
                     href={`/${t('lang')}/${t('servicePages.service.parentSlug')}/${service.slug}`}

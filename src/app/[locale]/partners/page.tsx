@@ -2,6 +2,9 @@
 
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { Brands, WhyBrands } from '@/types';    
+
+
 
 export default function PartnersPage() {
   const t = useTranslations();
@@ -35,7 +38,7 @@ export default function PartnersPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {t.raw('partners.brands.items').map((brand: any, index: number) => (
+            {t.raw('partners.brands.items').map((brand: Brands, index: number) => (
               <div key={index} className=" rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="text-center">
                   <div className="w-20 h-20 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
@@ -72,7 +75,7 @@ export default function PartnersPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {t.raw('partners.whyBrands.reasons').map((reason: any, index: number) => (
+            {t.raw('partners.whyBrands.reasons').map((reason: WhyBrands, index: number) => (
               <div key={index} className="text-center">
                 <div className="w-16 h-16 mx-auto mb-6 bg-blue-100 rounded-full flex items-center justify-center">
                   <span className="text-2xl text-primary">
@@ -102,7 +105,7 @@ export default function PartnersPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/services"
+              href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`}
               className=" text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
             >
               {t('partners.cta.servicesButton')}

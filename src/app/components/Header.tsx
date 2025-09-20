@@ -1,12 +1,11 @@
 'use client';
 
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useState } from 'react';
 import LocaleSwitcher from '../components/LocaleSwitcher';
 
 export default function Header() {
-  const locale = useLocale();
   const t = useTranslations();
   const [showMenuMobile, setShowMenuMobile] = useState(false);
 
@@ -34,7 +33,7 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="/services" className="hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <Link href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`} className="hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
               {t('header.nav.services')}
             </Link>
             <Link href="/about" className="hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
@@ -83,7 +82,7 @@ export default function Header() {
         {/* Mobile Navigation */}
         <div className={`md:hidden ${showMenuMobile ? 'block' : 'hidden'}`}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-200">
-            <Link href="/services" className="hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
+            <Link href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`} className="hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
               {t('header.nav.services')}
             </Link>
             <Link href="/about" className="hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>

@@ -1,7 +1,9 @@
 'use client';
 
+import ContactForm from '@/app/components/ContactForm';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 export default function ContactPage() {
   const t = useTranslations();
@@ -36,17 +38,10 @@ export default function ContactPage() {
             {/* Technical Manager */}
             <div className=" rounded-lg p-8 shadow-sm text-center bg-background-50">
               <div className="w-24 h-24 mx-auto mb-6 bg-background-50 rounded-full flex items-center justify-center overflow-hidden">
-                <img 
+                <Image 
                   src="/img/managers/technical-manager.svg" 
                   alt={t('contact.managers.technicalManagerName')}
                   className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                    const fallback = e.currentTarget.nextElementSibling as HTMLElement;
-                    if (fallback) {
-                      fallback.style.display = 'flex';
-                    }
-                  }}
                 />
                 <div className="w-full h-full bg-blue-100 rounded-full flex items-center justify-center" style={{display: 'none'}}>
                   <svg className="w-12 h-12 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,17 +68,10 @@ export default function ContactPage() {
             {/* Sales Manager */}
             <div className="rounded-lg p-8 shadow-sm text-center bg-background-50">
               <div className="w-24 h-24 mx-auto mb-6 bg-background-50 rounded-full flex items-center justify-center overflow-hidden">
-                <img 
+                <Image 
                   src="/img/managers/sales-manager.svg" 
                   alt={t('contact.managers.salesManagerName')}
                   className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                    const fallback = e.currentTarget.nextElementSibling as HTMLElement;
-                    if (fallback) {
-                      fallback.style.display = 'flex';
-                    }
-                  }}
                 />
                 <div className="w-full h-full bg-blue-100 rounded-full flex items-center justify-center" style={{display: 'none'}}>
                   <svg className="w-12 h-12 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -190,7 +178,8 @@ export default function ContactPage() {
                   {t('contact.form.title')}
                 </h2>
               </div>
-              <form className="space-y-6">
+              <ContactForm/>
+              {/* <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="firstName" className="block text-sm font-medium mb-2 text-background-50">
@@ -306,7 +295,7 @@ export default function ContactPage() {
                 >
                   {t('contact.form.submitButton')}
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
@@ -322,7 +311,7 @@ export default function ContactPage() {
             {t('contact.cta.description')}
           </p>
           <div className="space-x-4">
-            <Link href="/services" className="inline-block bg-primary text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary-100 transition-colors">
+            <Link href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`} className="inline-block bg-primary text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary-100 transition-colors">
               {t('contact.cta.servicesButton')}
             </Link>
             <a href={`tel:${t('footer.contact.phone')}`} className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover: hover:text-primary transition-colors">

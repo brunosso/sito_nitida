@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { Stat } from '@/types';
 
 export default function StatsSection() {
   const t = useTranslations();
@@ -18,7 +19,7 @@ export default function StatsSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {t.raw('stats.items').map((stat: any, index: number) => (
+          {t.raw('stats.items').map((stat: Stat, index: number) => (
             <div key={index} className="text-center">
               <div className="text-4xl md:text-5xl font-bold mb-2 text-blue-100">
                 {stat.number}

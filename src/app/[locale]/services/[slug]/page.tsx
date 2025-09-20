@@ -1,22 +1,16 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { use } from 'react';
 import { useTranslations } from 'next-intl';
+import { PageProps, ServiceFeature, Service } from '@/types';
 
-
-interface PageProps {
-  params: Promise<{
-    slug: string;
-  }>;
-}
 
 export default function ServicePage({ params }: PageProps) {
   const { slug } = use(params);
   const t = useTranslations();
-  const serviceIndex = t.raw('servicePages.service.items').findIndex((item: any) => item.serviceId === slug);
+  const serviceIndex = t.raw('servicePages.service.items').findIndex((item: Service) => item.serviceId === slug);
 
   if (serviceIndex === -1) {
     notFound();
@@ -65,7 +59,7 @@ export default function ServicePage({ params }: PageProps) {
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            {service.features.map((feature: any, index: number) => (
+            {service.features.map((feature: ServiceFeature, index: number) => (
             <div key={index} className="bg-foreground-100 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
               <div className="flex items-start space-x-4">
                 <div className="bg-primary-100 flex-shrink-0 w-12 h-12 rounded-lg flex items-center justify-center">
@@ -86,7 +80,7 @@ export default function ServicePage({ params }: PageProps) {
         <div className="bg-foreground-100 rounded-xl shadow-lg p-8 mb-16">
           <h2 className="text-3xl font-bold text-foreground-900 mb-8 text-center">{t('servicePages.common.keyBenefits')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {service.benefits.map((benefit: any, index: number) => (
+            {service.benefits.map((benefit: string, index: number) => (
               <div key={index} className="flex items-center space-x-3">
                 <div className="bg-primary-100 flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center">
                   <svg className="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">

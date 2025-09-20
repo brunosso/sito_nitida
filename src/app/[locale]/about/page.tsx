@@ -2,6 +2,8 @@
 
 import Link from 'next/link';
 import {useTranslations} from 'next-intl';
+import { Certifications } from '@/types';
+
 
 export default function AboutPage() {
 
@@ -232,7 +234,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {t.raw('about.certifications.items').map((cert: any, index: number) => (
+              {t.raw('about.certifications.items').map((cert: Certifications, index: number) => (
               <div key={index} className=" rounded-lg p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
                 <div className="flex items-start mb-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
@@ -268,7 +270,7 @@ export default function AboutPage() {
             {t('about.cta.description')}
           </p>
           <div className="space-x-4">
-            <Link href="/services" className="inline-block  text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+            <Link href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`} className="inline-block  text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               {t('about.cta.servicesButton')}
             </Link>
             <a href="#contact" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover: hover:text-primary transition-colors">

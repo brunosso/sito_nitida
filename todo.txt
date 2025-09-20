@@ -1,8 +1,6 @@
 - trad metadata
 - contacts form
 - primary color for css
-- implementare multilingua in base al path
-- news ?
 - logo
 - font
 - favicon

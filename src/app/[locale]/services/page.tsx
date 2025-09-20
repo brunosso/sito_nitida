@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { Service } from '@/types';
 
 export default function ServicesPage() {
   const t = useTranslations();
@@ -24,7 +25,7 @@ export default function ServicesPage() {
         <section className="py-16 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {t.raw('servicePages.service.items').map((service: any, index: number) => (
+          {t.raw('servicePages.service.items').map((service: Service, index: number) => (
             <Link 
               key={index} 
               href={`/${t('lang')}/${t('servicePages.service.parentSlug')}/${service.slug}`}
