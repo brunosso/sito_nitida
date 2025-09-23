@@ -7,10 +7,13 @@ declare const messages: {
     "logo": "Nitida Project",
     "nav": {
       "services": "Services",
+      "servicesSlug": "services",
       "about": "About",
-      "news": "News",
+      "aboutSlug": "about",
       "partners": "Partners",
-      "contact": "Contact"
+      "partnersSlug": "partners",
+      "contact": "Contact",
+      "contactSlug": "contact"
     },
     "language": "EN"
   },
@@ -129,6 +132,7 @@ declare const messages: {
     "location": {
       "title": "Visit Our Office",
       "addressLabel": "Address",
+      "address": "Zona Industriale 3ª Fase, Viale 15, n. 6 - 97100 Ragusa",
       "hoursLabel": "Business Hours",
       "hours": "Monday - Friday: 9:00 AM - 6:00 PM",
       "emergency": "Emergency Support: 24/7",
@@ -139,12 +143,12 @@ declare const messages: {
       "subtitle": "Ready to secure your facility? Our team of experts is here to help you find the perfect security solution for your needs.",
       "technicalManagerName": "Alberto Scrofani",
       "technicalManagerTitle": "Technical Manager",
-      "technicalManagerPhone": "+39 02 1234 5679",
-      "technicalManagerEmail": "technical@nitidaproject.it",
+      "technicalManagerPhone": "+39 329 448 9572",
+      "technicalManagerEmail": "a.scrofani@nitidaproject.it",
       "salesManagerName": "Gabriele Aprile",
       "salesManagerTitle": "Sales Manager",
-      "salesManagerPhone": "+39 02 1234 5680",
-      "salesManagerEmail": "sales@nitidaproject.it"
+      "salesManagerPhone": "+39 320 412 7266",
+      "salesManagerEmail": "g.aprile@nitidaproject.it"
     },
     "form": {
       "title": "Send Us a Message",
@@ -167,7 +171,11 @@ declare const messages: {
       "other": "Other",
       "message": "Message",
       "messagePlaceholder": "Tell us about your security needs...",
-      "submitButton": "Send Message"
+      "submitButton": "Send Message",
+      "fieldRequired": "This field is required",
+      "sending": "Sending...",
+      "sendOk": "Message sent successfully",
+      "sendError": "Failed to send message. Contact us via email or phone."
     },
     "cta": {
       "title": "Ready to Get Started?",
@@ -210,50 +218,10 @@ declare const messages: {
       }
     ]
   },
-  "news": {
-    "title": "Latest News",
-    "subtitle": "Stay updated with our latest innovations and industry insights",
-    "readMore": "Read More",
-    "articles": [
-      {
-        "id": 1,
-        "title": "New AI-Powered Surveillance System Launch",
-        "excerpt": "We're excited to announce the launch of our latest AI-powered surveillance system that revolutionizes security monitoring with advanced facial recognition and predictive analytics.",
-        "date": "2024-01-15",
-        "category": "Product Launch",
-        "image": "/news-ai-surveillance.jpg",
-        "content": "<p>We are thrilled to announce the launch of our revolutionary <strong>AI-powered surveillance system</strong> that represents a quantum leap in security technology.</p><p>This cutting-edge system features:</p><ul><li><strong>Advanced facial recognition</strong> with 99.9% accuracy</li><li>Real-time <em>predictive analytics</em> for threat detection</li><li>Seamless integration with existing security infrastructure</li></ul><p>The new system is now available for deployment across all our client facilities.</p>"
-      },
-      {
-        "id": 2,
-        "title": "IoT Security Standards Update",
-        "excerpt": "Our team has been working closely with industry leaders to establish new IoT security standards that will enhance protection for connected devices across all sectors.",
-        "date": "2024-01-10",
-        "category": "Industry News",
-        "image": "/news-iot-standards.jpg",
-        "content": "<p>Our security research team has been collaborating with <strong>leading industry experts</strong> to develop comprehensive IoT security standards that address the evolving threat landscape.</p><p>The new standards include:</p><ul><li><strong>Enhanced encryption protocols</strong> for device-to-device communication</li><li>Robust <em>authentication mechanisms</em> for IoT device management</li><li>Real-time threat detection and response capabilities</li></ul><p>These standards will be implemented across all our IoT security solutions starting next quarter.</p>"
-      },
-      {
-        "id": 3,
-        "title": "Partnership with Leading Tech University",
-        "excerpt": "We're proud to announce our new research partnership with Politecnico di Ragusa to develop next-generation security technologies for smart cities.",
-        "date": "2024-01-05",
-        "category": "Partnership",
-        "image": "/news-partnership.jpg",
-        "content": "<p>We are proud to announce our strategic partnership with <strong>Politecnico di Ragusa</strong>, one of Europe's most prestigious technical universities.</p><p>This collaboration will focus on:</p><ul><li><strong>Smart city security solutions</strong> for urban environments</li><li>Advanced <em>machine learning algorithms</em> for threat prediction</li><li>Next-generation IoT security protocols</li></ul><p>The partnership will accelerate our research and development efforts in creating innovative security technologies for the cities of tomorrow.</p>"
-      }
-    ]
-  },
   "footer": {
     "company": {
       "title": "Nitida Project",
       "description": "Your trusted partner in advanced security and IoT solutions for modern facilities."
-    },
-    "contact": {
-      "title": "Contact Us",
-      "address": "Via Roma 123, Ragusa, Italy",
-      "phone": "+39 02 1234 5678",
-      "email": "info@nitidaproject.it"
     },
     "copyright": "© 2025 Nitida Project srl. All rights reserved."
   },
@@ -271,7 +239,6 @@ declare const messages: {
     "service": {
       "title": "Our Services",
       "subtitle": "Comprehensive security solutions for every need",
-      "parentSlug": "services",
       "items": [
         {
           "title": "Smart Surveillance Systems",

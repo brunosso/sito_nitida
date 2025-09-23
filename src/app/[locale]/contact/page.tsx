@@ -107,7 +107,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Location & Contact Details */}
-            <div className="p-8">
+            <div className="md:p-8">
               <div className="mb-8">
                 <h2 className="text-2xl font-bold mb-4">
                   {t('contact.location.title')}
@@ -128,7 +128,7 @@ export default function ContactPage() {
                       {t('contact.location.addressLabel')}
                     </h3>
                     <p>
-                      {t('footer.contact.address')}
+                      {t('contact.location.address')}
                     </p>
                   </div>
                 </div>
@@ -157,19 +157,13 @@ export default function ContactPage() {
               {/* Map Section */}
               <div className="mt-8">
                 <div className="bg-foreground-50 rounded-lg p-8 shadow-sm">
-                  <div className="aspect-w-16 aspect-h-9 rounded-lg bg-gray-200 flex items-center justify-center">
-                    <div className="text-center">
-                      <svg className="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>
-                      <p className="text-gray-600">
-                        {t('contact.location.mapPlaceholder')}
-                      </p>
-                      <p className="text-sm text-gray-500 mt-2">
-                        {t('footer.contact.address')}
-                      </p>
-                    </div>
+                  <div className="flex items-center justify-center">
+                      <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.974137474042!2d14.687045411233138!3d36.890966962462215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1311982766952977%3A0xf8cd83f31e1a6c3f!2sViale%2015%2C%20n%C2%B0%206%2C%2097100%20Ragusa%20RG!5e0!3m2!1sit!2sit!4v1758555789977!5m2!1sit!2sit" 
+                        width="100%" height="300" 
+                        style={{border:0}} 
+                        allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+                      </iframe>
                   </div>
                 </div>
               </div>
@@ -183,123 +177,6 @@ export default function ContactPage() {
                 </h2>
               </div>
               <ContactForm/>
-              {/* <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium mb-2 text-background-50">
-                      {t('contact.form.firstName')}
-                    </label>
-                    <input
-                      type="text"
-                      id="firstName"
-                      name="firstName"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder={t('contact.form.firstNamePlaceholder')}
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium mb-2 text-background-50">
-                      {t('contact.form.lastName')}
-                    </label>
-                    <input
-                      type="text"
-                      id="lastName"
-                      name="lastName"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder={t('contact.form.lastNamePlaceholder')}
-                    />
-                  </div>
-                </div>
-                
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2 text-background-50">
-                    {t('contact.form.email')}
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder={t('contact.form.emailPlaceholder')}
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium mb-2 text-background-50">
-                    {t('contact.form.phone')}
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder={t('contact.form.phonePlaceholder')}
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="company" className="block text-sm font-medium mb-2 text-background-50">
-                    {t('contact.form.company')}
-                  </label>
-                  <input
-                    type="text"
-                    id="company"
-                    name="company"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder={t('contact.form.companyPlaceholder')}
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="service" className="block text-sm font-medium mb-2 text-background-50">
-                    {t('contact.form.service')}
-                  </label>
-                  <select
-                    id="service"
-                    name="service"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  >
-                    <option value="">
-                      {t('contact.form.selectService')}
-                    </option>
-                    <option value="surveillance">
-                      {t('contact.form.surveillance')}
-                    </option>
-                    <option value="iot">
-                      {t('contact.form.iot')}
-                    </option>
-                    <option value="access">
-                      {t('contact.form.access')}
-                    </option>
-                    <option value="electrical">
-                      {t('contact.form.electrical')}
-                    </option>
-                    <option value="other">
-                      {t('contact.form.other')}
-                    </option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
-                    {t('contact.form.message')}
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={4}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder={t('contact.form.messagePlaceholder')}
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-primary text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-                >
-                  {t('contact.form.submitButton')}
-                </button>
-              </form> */}
             </div>
           </div>
         </div>
@@ -314,13 +191,13 @@ export default function ContactPage() {
           <p className="text-xl text-foreground-50 mb-8 max-w-2xl mx-auto">
             {t('contact.cta.description')}
           </p>
-          <div className="space-x-4">
-            <Link href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`} className="inline-block bg-primary text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary-100 transition-colors">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href={`/${t('lang')}/${t('header.nav.servicesSlug')}`} className="inline-block bg-secondary-600 text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-secondary-500 transition-colors">
               {t('contact.cta.servicesButton')}
             </Link>
-            <a href={`tel:${t('footer.contact.phone')}`} className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover: hover:text-primary transition-colors">
+            <Link href={`tel:${t('contact.managers.salesManagerPhone')}`} className="border-2 border-foreground text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-foreground hover:text-background transition-colors">
               {t('contact.cta.callButton')}
-            </a>
+            </Link>
           </div>
         </div>
       </section>

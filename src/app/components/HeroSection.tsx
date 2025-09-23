@@ -16,7 +16,7 @@ export default function HeroSection() {
           {t('hero.subtitle')}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href={t('hero.ctaLink')} className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
+          <Link href={t('hero.ctaLink')} className="bg-secondary-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-secondary-500 transition-colors">
             {t('hero.cta')}
           </Link>
           <Link href={t('hero.learnMoreLink')} className="border-2 border-foreground text-foreground px-8 py-3 rounded-lg font-semibold hover:bg-foreground hover:text-background transition-colors">

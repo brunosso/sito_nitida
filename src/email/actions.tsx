@@ -1,37 +1,35 @@
+"use server";
+
 import { EmailTemplate } from './EmailTemplate';
 import { Resend } from 'resend';
-
-const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
+import { ContactFormData } from '@/types';
 
 export const POST = async ({
     email,
     firstName,
     lastName,
     phoneNumber,
+    company,
+    service,
     description,
-    eventName,
-}: {
-    firstName: string;
-    lastName: string;
-    email: string;
-    phoneNumber: string;
-    description: string;
-    eventName: string;
-}) => {
-  try {
+}: ContactFormData)  => {
+  try {    
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const { data, error } = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
+      from: 'Info <info@nitidaproject.it>',
       to: [process.env.MAIL_TO ?? "", process.env.MAIL_MAIN ?? ""],
-      subject: 'Hello world',
-      react: EmailTemplate({ firstName, lastName, email, phoneNumber, description, eventName }),
+      subject: "🚀🚀 Nuova richiesta info da nitidaproject.it",
+      react: EmailTemplate({ firstName, lastName, email, phoneNumber, company, service, description }),
     });
 
     if (error) {
-      return Response.json({ error }, { status: 500 });
+      console.error('Error in POST action:', error);
+      return { success: false, data: data, error: error };
     }
 
-    return Response.json(data);
+    return { success: true, data: data };
   } catch (error) {
-    return Response.json({ error }, { status: 500 });
+    console.error('Error catched in POST action:', error);
+    return { success: false, data: null, error: error };
   }
 }

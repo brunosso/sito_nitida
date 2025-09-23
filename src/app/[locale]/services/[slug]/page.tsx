@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import { use } from 'react';
 import { useTranslations } from 'next-intl';
 import { PageProps, ServiceFeature, Service } from '@/types';
+import CtaPreFooter from '@/app/components/CtaPreFooter';
 
 
 export default function ServicePage({ params }: PageProps) {
@@ -21,7 +22,7 @@ export default function ServicePage({ params }: PageProps) {
   return (
     <div className="min-h-screen bg-foreground-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary to-primary-600 text-white py-20">
+      <section className="bg-gradient-to-r from-primary to-primary-900 text-foreground py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">{service.title}</h1>
@@ -42,7 +43,7 @@ export default function ServicePage({ params }: PageProps) {
               </li>
               <li><span className="mx-2">/</span></li>
               <li>
-                <Link href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`} className="hover:text-primary transition-colors">
+                <Link href={`/${t('lang')}/${t('header.nav.servicesSlug')}`} className="hover:text-primary transition-colors">
                   {t('servicePages.breadcrumb.services')}
                 </Link>
               </li>
@@ -92,21 +93,9 @@ export default function ServicePage({ params }: PageProps) {
             ))}
           </div>
         </div>
-
-        {/* CTA Section */}
-        <div className="text-center">
-          <div className="bg-gradient-to-r from-primary to-primary-600 text-foreground rounded-2xl p-12">
-            <h2 className="text-3xl font-bold mb-4">{service.cta.title}</h2>
-            <p className="text-xl mb-8 opacity-90">{service.cta.description}</p>
-            <Link 
-              href="/contact"
-              className="bg-background-900 hover:bg-background-800 text-foreground px-8 py-4 rounded-full font-semibold transition-colors inline-block">
-              {t('servicePages.common.getStartedToday')}
-            </Link>
-          </div>
-        </div>
         </div>
       </section>
+      <CtaPreFooter title={service.cta.title} description={service.cta.description} link1="/contact" label1={t('servicePages.common.getStartedToday')} />
     </div>
   );
 }

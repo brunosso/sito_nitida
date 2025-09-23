@@ -31,23 +31,19 @@ export default function Header() {
             </Link>
           </div>
 
+          <div className="flex gap-8">
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`} className="hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <Link href={`/${t('lang')}/${t('header.nav.servicesSlug')}`} className="font-archivo hover:text-primary px-3 py-2 text-md font-medium transition-colors">
               {t('header.nav.services')}
             </Link>
-            <Link href="/about" className="hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <Link href={`/${t('lang')}/${t('header.nav.aboutSlug')}`} className="font-archivo hover:text-primary px-3 py-2 text-md font-medium transition-colors">
               {t('header.nav.about')}
             </Link>
-            <Link href="/partners" className="hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <Link href={`/${t('lang')}/${t('header.nav.partnersSlug')}`} className="font-archivo hover:text-primary px-3 py-2 text-md font-medium transition-colors">
               {t('header.nav.partners')}
             </Link>
-            {/* News 
-            <Link href="/news" className="hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
-              {translations.header.nav.news}
-            </Link>
-            */}
-            <Link href="/contact" className="hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            <Link href={`/${t('lang')}/${t('header.nav.contactSlug')}`} className="font-archivo hover:text-primary px-3 py-2 text-md font-medium transition-colors">
               {t('header.nav.contact')}
             </Link>
           </nav>
@@ -77,26 +73,22 @@ export default function Header() {
                 </button>
             </div>
           </div>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
         <div className={`md:hidden ${showMenuMobile ? 'block' : 'hidden'}`}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-200">
-            <Link href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`} className="hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
+            <Link href={`/${t('lang')}/${t('header.nav.servicesSlug')}`} className="font-archivo hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
               {t('header.nav.services')}
             </Link>
-            <Link href="/about" className="hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
+            <Link href={`/${t('lang')}/${t('header.nav.aboutSlug')}`} className="font-archivo hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
               {t('header.nav.about')}
             </Link>
-            <Link href="/partners" className="hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
+            <Link href={`/${t('lang')}/${t('header.nav.partnersSlug')}`} className="font-archivo hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
               {t('header.nav.partners')}
             </Link>
-            {/* News 
-            <Link href="/news" className="hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
-              {translations.header.nav.news}
-            </Link>
-            */}
-            <Link href="/contact" className="hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
+            <Link href={`/${t('lang')}/${t('header.nav.contactSlug')}`} className="font-archivo hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors" onClick={closeMenuOnMobile}>
               {t('header.nav.contact')}
             </Link>
             

@@ -24,7 +24,7 @@ export default function ServicesSection() {
           {t.raw('servicePages.service.items').map((service: Service, index: number) => (
             <Link 
               key={index} 
-              href={`/${t('lang')}/${t('servicePages.service.parentSlug')}/${service.slug}`}
+              href={`/${t('lang')}/${t('header.nav.servicesSlug')}/${service.slug}`}
               className="group"
             >
               <div className="bg-background rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer h-full">                <div className="h-48 bg-gray-200 relative overflow-hidden">
@@ -32,17 +32,18 @@ export default function ServicesSection() {
                     src={service.image}
                     alt={service.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-primary group-hover:text-blue-700 transition-colors">
-                    {service.title}
+                <h3 className="text-2xl font-bold text-primary-700 mb-4 group-hover:text-primary-500 transition-colors">
+                {service.title}
                   </h3>
                   <p className="leading-relaxed">
                     {service.description}
                   </p>
-                  <div className="mt-4 flex items-center text-primary font-semibold group-hover:text-blue-700">
+                  <div className="mt-4 flex items-center text-primary-700 font-semibold group-hover:text-primary-500">
                     {t('servicePages.common.learnMore')}
                     <svg className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

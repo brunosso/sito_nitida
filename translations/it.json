@@ -4,10 +4,13 @@
     "logo": "Nitida Project",
     "nav": {
       "services": "Servizi",
+      "servicesSlug": "servizi",
       "about": "Chi Siamo",
-      "news": "News",
+      "aboutSlug": "chi-siamo",
       "partners": "Partner",
-      "contact": "Contatti"
+      "partnersSlug": "partner",
+      "contact": "Contatti",
+      "contactSlug": "contatti"
     },
     "language": "IT"
   },
@@ -133,7 +136,8 @@
     },
     "location": {
       "title": "Visita il Nostro Ufficio",
-      "addressLabel": "Zona Industriale 3ª Fase, Viale 15, n. 6 - 97100 Ragusa",
+      "addressLabel": "Indirizzo",
+      "address": "Zona Industriale 3ª Fase, Viale 15, n. 6 - 97100 Ragusa",
       "hoursLabel": "Orari di Lavoro",
       "hours": "Lunedì - Venerdì: 9:00 - 18:00",
       "emergency": "Supporto di Emergenza: 24/7",
@@ -172,7 +176,11 @@
       "other": "Altro",
       "message": "Messaggio",
       "messagePlaceholder": "Raccontaci delle tue esigenze di sicurezza...",
-      "submitButton": "Invia Messaggio"
+      "submitButton": "Invia Messaggio",
+      "fieldRequired": "Questo campo è obbligatorio",
+      "sending": "Invio in corso...",
+      "sendOk": "Messaggio inviato con successo",
+      "sendError": "Errore nell'invio del messaggio. Contattaci via mail o telefono."
     },
     "cta": {
       "title": "Pronto a Iniziare?",
@@ -207,50 +215,10 @@
       }
     ]
   },
-  "news": {
-    "title": "Ultime Notizie",
-    "subtitle": "Rimani aggiornato con le nostre ultime innovazioni e approfondimenti del settore",
-    "readMore": "Leggi di Più",
-    "articles": [
-      {
-        "id": 1,
-        "title": "Lancio del Nuovo Sistema di Sorveglianza con IA",
-        "excerpt": "Siamo entusiasti di annunciare il lancio del nostro ultimo sistema di sorveglianza alimentato da IA che rivoluziona il monitoraggio della sicurezza con riconoscimento facciale avanzato e analisi predittive.",
-        "date": "2024-01-15",
-        "category": "Lancio Prodotto",
-        "image": "/news-ai-surveillance.jpg",
-        "content": "<p>Siamo entusiasti di annunciare il lancio del nostro ultimo sistema di sorveglianza alimentato da IA che rivoluziona il monitoraggio della sicurezza con riconoscimento facciale avanzato e analisi predittive.</p><p>Il nuovo sistema è ora disponibile per la distribuzione in tutte le nostre strutture clienti.</p>"
-      },
-      {
-        "id": 2,
-        "title": "Aggiornamento Standard Sicurezza IoT",
-        "excerpt": "Il nostro team ha lavorato a stretto contatto con i leader del settore per stabilire nuovi standard di sicurezza IoT che miglioreranno la protezione per i dispositivi connessi in tutti i settori.",
-        "date": "2024-01-10",
-        "category": "Notizie Settore",
-        "image": "/news-iot-standards.jpg",
-        "content": "<p>Il nostro team ha lavorato a stretto contatto con i leader del settore per stabilire nuovi standard di sicurezza IoT che miglioreranno la protezione per i dispositivi connessi in tutti i settori.</p><p>I nuovi standard includono:</p><ul><li><strong>Protocolli di crittografia migliorati</strong> per la comunicazione tra dispositivi</li><li>Meccanismi di <em>autenticazione robusti</em> per la gestione dei dispositivi IoT</li><li>Capacità di rilevamento e risposta in tempo reale per le minacce</li></ul><p>Questi standard saranno implementati in tutte le nostre soluzioni di sicurezza IoT a partire dal prossimo trimestre.</p>"
-      },
-      {
-        "id": 3,
-        "title": "Partnership con Università Tecnica Leader",
-        "excerpt": "Siamo orgogliosi di annunciare la nostra nuova partnership di ricerca con il Politecnico di Ragusa per sviluppare tecnologie di sicurezza di prossima generazione per le smart city.",
-        "date": "2024-01-05",
-        "category": "Partnership",
-        "image": "/news-partnership.jpg",
-        "content": "<p>Siamo orgogliosi di annunciare la nostra nuova partnership di ricerca con il Politecnico di Ragusa per sviluppare tecnologie di sicurezza di prossima generazione per le smart city.</p><p>Questa collaborazione si concentrerà su:</p><ul><li><strong>Soluzioni di sicurezza per le smart city</strong> per ambienti urbani</li><li>Algoritmi di <em>machine learning avanzati</em> per la previsione delle minacce</li><li>Protocolli di sicurezza IoT di prossima generazione</li></ul><p>La partnership accelerarà i nostri sforzi di ricerca e sviluppo nella creazione di tecnologie innovative per le città del domani.</p>"
-      }
-    ]
-  },
   "footer": {
     "company": {
       "title": "Nitida Project",
       "description": "Il tuo partner di fiducia per soluzioni avanzate di sicurezza e IoT per strutture moderne."
-    },
-    "contact": {
-      "title": "Contattaci",
-      "address": "Via Roma 123, Ragusa, Italia",
-      "phone": "+39 02 1234 5678",
-      "email": "info@nitidaproject.it"
     },
     "copyright": "© 2025 Nitida Project srl. Tutti i diritti riservati."
   },
@@ -268,7 +236,6 @@
     "service": {
         "title": "I Nostri Servizi",
         "subtitle": "Soluzioni di sicurezza complete per ogni esigenza",
-        "parentSlug": "servizi",
         "items": [
           {
             "title": "Automazione e Termoregolazione",

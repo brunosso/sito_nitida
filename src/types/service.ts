@@ -27,7 +27,7 @@ export interface Service {
 export interface ServicePageData {
   title: string;
   subtitle: string;
-  parentSlug: string;
+  servicesSlug: string;
   items: Service[];
 }
 

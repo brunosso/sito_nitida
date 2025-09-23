@@ -1,20 +1,14 @@
-interface EmailTemplateProps {
-  firstName: string;
-  lastName: string;
-  email: string;
-  phoneNumber: string;
-  description: string;
-  eventName: string;
-}
+import { ContactFormData } from '@/types';
 
-export function EmailTemplate({ firstName, lastName, email, phoneNumber, description, eventName }: EmailTemplateProps) {
+export function EmailTemplate({ firstName, lastName, email, phoneNumber, company, service, description }: ContactFormData) {
   return (
     <div>
-      <h1>Welcome, {firstName} {lastName}!</h1>
+      <h1>Richiesta info da {firstName} {lastName}!</h1>
       <p>Email: {email}</p>
-      <p>Phone: {phoneNumber}</p>
-      <p>Description: {description}</p>
-      <p>Event Name: {eventName}</p>
+      <p>Telefono: {phoneNumber}</p>
+      <p>Azienda: {company}</p>
+      <p>Servizio: {service ?? "/"}</p>
+      <p>Messaggio: {description}</p>
     </div>
   );
 }

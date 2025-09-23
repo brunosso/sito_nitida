@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { Brands, WhyBrands } from '@/types';    
 import Image from 'next/image';
+import CtaPreFooter from '@/app/components/CtaPreFooter';
 
 
 
@@ -13,13 +14,13 @@ export default function PartnersPage() {
   return (
     <div className="min-h-screen bg-foreground-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary to-blue-800 text-white py-20">
+      <section className="bg-gradient-to-r from-primary to-primary-900 text-foreground py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               {t('partners.hero.title')}
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-foreground-100 max-w-3xl mx-auto">
               {t('partners.hero.subtitle')}
             </p>
           </div>
@@ -96,30 +97,7 @@ export default function PartnersPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-primary py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            {t('partners.cta.title')}
-          </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
-            {t('partners.cta.description')}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href={`/${t('lang')}/${t('servicePages.service.parentSlug')}`}
-              className=" text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
-            >
-              {t('partners.cta.servicesButton')}
-            </Link>
-            <Link
-              href="/contact"
-              className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover: hover:text-primary transition-colors duration-300"
-            >
-              {t('partners.cta.contactButton')}
-            </Link>
-          </div>
-        </div>
-      </section>
+      <CtaPreFooter title={t('partners.cta.title')} description={t('partners.cta.description')} link1={`/${t('lang')}/${t('header.nav.servicesSlug')}`} label1={t('partners.cta.servicesButton')} link2="/contact" label2={t('partners.cta.contactButton')} />
     </div>
   );
 }

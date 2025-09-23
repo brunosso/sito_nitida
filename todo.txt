@@ -1,6 +1,3 @@
 - trad metadata
-- contacts form
-- primary color for css
 - logo
-- font
 - favicon

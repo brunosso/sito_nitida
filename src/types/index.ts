@@ -42,12 +42,14 @@ export type ServicePageProps = {
   now: number;
 };
 
-export type NewsPageProps = {
-  params: Promise<{
-    id: string;
-  }>;
-  messages: Messages;
-  now: number;
+export type ContactFormData = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  phoneNumber: string;
+  company: string;
+  service: string;
+  description: string;
 };
 
 // Re-export service types
