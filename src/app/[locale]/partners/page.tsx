@@ -45,7 +45,7 @@ export default function PartnersPage() {
                 <div className="text-center">
                   <div className="w-20 h-20 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
                     <span className="text-2xl font-bold text-primary">
-                      <Image src={brand.logo} alt={brand.name} width={80} height={80} />
+                      <Image src={brand.logo} alt={brand.name} width={300} height={100} />
                     </span>
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
