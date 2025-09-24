@@ -402,14 +402,8 @@
       "subtitle": "Collaboriamo con produttori di fama mondiale per garantire ai nostri clienti le soluzioni tecnologiche più affidabili e avanzate",
       "items": [
         {
-          "name": "Siemens",
-          "logo": "/img/partners/siemens.png",
-          "description": "Leader globale nella tecnologia di automazione e digitalizzazione, fornisce sistemi di automazione edilizia e sicurezza all'avanguardia.",
-          "category": "Automazione Edifici"
-        },
-        {
           "name": "Schneider Electric",
-          "logo": "/img/partners/schneider-electric.png",
+          "logo": "/img/partners/schneider.png",
           "description": "Pioniere nelle soluzioni di gestione energetica e automazione, offre sistemi completi di sicurezza elettrica e monitoraggio.",
           "category": "Gestione Energetica"
         },
@@ -420,20 +414,32 @@
           "category": "Sicurezza Antincendio"
         },
         {
-          "name": "Bosch",
-          "logo": "/img/partners/bosch.png",
+          "name": "iSMA Controlli",
+          "logo": "/img/partners/isma.png",
           "description": "Soluzioni innovative di sicurezza e automazione con integrazione IoT avanzata e tecnologie per edifici intelligenti.",
           "category": "Sistemi di Sicurezza"
         },
         {
-          "name": "ABB",
-          "logo": "/img/partners/abb.png",
+          "name": "BELIMO",
+          "logo": "/img/partners/belimo.png",
           "description": "Fornitore leader di apparecchiature elettriche e soluzioni di automazione per applicazioni industriali e commerciali.",
           "category": "Sistemi Elettrici"
         },
         {
-          "name": "Legrand",
-          "logo": "/img/partners/legrand.png",
+          "name": "ESSER",
+          "logo": "/img/partners/esser.png",
+          "description": "Leader globale nella tecnologia di automazione e digitalizzazione, fornisce sistemi di automazione edilizia e sicurezza all'avanguardia.",
+          "category": "Automazione Edifici"
+        },
+        {
+          "name": "detnov",
+          "logo": "/img/partners/detnov.png",
+          "description": "Esperto in infrastrutture elettriche e digitali per edifici, fornisce soluzioni intelligenti e sostenibili.",
+          "category": "Infrastrutture Intelligenti"
+        }
+        {
+          "name": "LDA Audio Tech",
+          "logo": "/img/partners/lda.png",
           "description": "Esperto in infrastrutture elettriche e digitali per edifici, fornisce soluzioni intelligenti e sostenibili.",
           "category": "Infrastrutture Intelligenti"
         }
