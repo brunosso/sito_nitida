@@ -39,7 +39,7 @@ export default function PartnersPage() {
             </p>
           </div>
 
-          <div className="grid grid-flow-row-dense grid-cols-4 grid-rows-2 gap-8">
+          <div className="grid grid-flow-col grid-cols-4 grid-rows-2 gap-8">
             {t.raw('partners.brands.items').map((brand: Brands, index: number) => (
               <div key={index} className=" rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="text-center">
