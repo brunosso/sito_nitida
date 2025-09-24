@@ -43,7 +43,7 @@ export default function PartnersPage() {
             {t.raw('partners.brands.items').map((brand: Brands, index: number) => (
               <div key={index} className=" rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
+                  <div className="w-300 h-100 mx-auto mb-6 bg-gray-100 rounded-full flex items-center justify-center">
                     <span className="text-2xl font-bold text-primary">
                       <Image src={brand.logo} alt={brand.name} width={300} height={100} />
                     </span>
