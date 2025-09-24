@@ -39,11 +39,11 @@ export default function PartnersPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-flow-row-dense grid-cols-4 grid-rows-2 gap-8">
             {t.raw('partners.brands.items').map((brand: Brands, index: number) => (
               <div key={index} className=" rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                 <div className="text-center">
-                  <div className="w-60 h-20 mx-auto mb-6 bg-gray-100 rounded flex items-center justify-center">
+                  <div className="w-80 h-20 mx-auto mb-6 rounded flex items-center justify-center">
                     <span className="text-2xl font-bold text-primary">
                       <Image src={brand.logo} alt={brand.name} width={300} height={100} />
                     </span>
